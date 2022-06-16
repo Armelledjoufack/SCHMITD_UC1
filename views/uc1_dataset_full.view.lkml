@@ -123,9 +123,9 @@ view: uc1_dataset_full {
   }
 
   dimension: date_traitement_fabrication_formated  {
-    type: string
-    datatype: date
-    sql:date(${TABLE}.DateTraitementFabricationFormatted);;
+    type: date
+    datatype:date
+    sql:cast(${TABLE}.DateTraitementFabricationFormatted as DATE);;
   }
    dimension: designation_produit_fini {
     type: string
