@@ -123,7 +123,7 @@ view: uc1_dataset_full {
   }
 
   dimension: date_traitement_fabrication_formated  {
-    type: date
+    type: string datatype: date
     sql:${TABLE}.DateTraitementFabricationFormatted;;
   }
    dimension: designation_produit_fini {
