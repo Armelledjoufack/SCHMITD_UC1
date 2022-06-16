@@ -118,7 +118,7 @@ view: uc1_dataset_full {
   }
 
   dimension: date_traitement_fabrication {
-    type: string
+    type: date datatype: date
     sql:${TABLE}.DateTraitementFabrication;;
   }
 
