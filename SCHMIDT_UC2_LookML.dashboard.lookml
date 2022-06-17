@@ -42,13 +42,13 @@
     col: 0
     width: 8
     height: 6
-  - title: Untitled
+  - title: Liste des produits
     name: Untitled
     model: sch_uc1_looker
     explore: uc1_dataset_full
     type: looker_grid
-    fields: [uc1_dataset_full.numero_tarif, uc1_dataset_full.code_produit_fini, uc1_dataset_full.nom_matiere]
-    sorts: [uc1_dataset_full.numero_tarif]
+    fields: [uc1_dataset_full.code_produit_fini, uc1_dataset_full.nom_matiere]
+    sorts: [uc1_dataset_full.code_produit_fini]
     limit: 0
     show_view_names: false
     show_row_numbers: true
