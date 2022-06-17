@@ -42,12 +42,13 @@
     col: 0
     width: 8
     height: 6
-  - title: Produits
-    name: Produits
+  - name: add_a_unique_name_1655471895
+    title: Untitled Visualization
     model: sch_uc1_looker
     explore: uc1_dataset_full
     type: looker_grid
-    fields: [uc1_dataset_full.code_produit_fini, uc1_dataset_full.nom_matiere]
+    fields: [uc1_dataset_full.code_produit_fini, uc1_dataset_full.nom_matiere, uc1_dataset_full.date_traitement_fabrication,
+      uc1_dataset_full.designation_produit_fini]
     sorts: [uc1_dataset_full.code_produit_fini]
     limit: 5000
     show_view_names: false
@@ -92,7 +93,3 @@
     totals_color: "#808080"
     defaults_version: 1
     series_types: {}
-    row: 0
-    col: 8
-    width: 8
-    height: 6
