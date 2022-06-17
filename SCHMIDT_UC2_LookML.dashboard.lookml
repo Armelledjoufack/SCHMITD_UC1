@@ -49,7 +49,7 @@
     type: looker_grid
     fields: [uc1_dataset_full.code_produit_fini, uc1_dataset_full.nom_matiere]
     sorts: [uc1_dataset_full.code_produit_fini]
-    limit: 0
+    limit: 5000
     show_view_names: false
     show_row_numbers: true
     transpose: false
