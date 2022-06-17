@@ -42,7 +42,7 @@
     col: 0
     width: 8
     height: 6
-  - title: Liste des produits
+  - title: Produits
     name: Produits
     model: sch_uc1_looker
     explore: uc1_dataset_full
