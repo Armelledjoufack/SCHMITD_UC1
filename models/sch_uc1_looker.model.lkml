@@ -3,6 +3,8 @@ connection: "schmidt_big_query"
 # include all the views
 include: "/views/**/*.view"
 
+include: "/*.dashboard"
+
 datagroup: sch_uc1_looker_default_datagroup {
   # sql_trigger: SELECT MAX(id) FROM etl_log;;
   max_cache_age: "12 hour"
