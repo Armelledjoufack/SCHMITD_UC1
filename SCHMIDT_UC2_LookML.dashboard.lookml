@@ -43,7 +43,7 @@
     width: 8
     height: 6
   - title: Liste des produits
-    name: Untitled
+    name: Produits
     model: sch_uc1_looker
     explore: uc1_dataset_full
     type: looker_grid
