@@ -42,13 +42,14 @@
     model: sch_uc1_looker
     explore: custom_navigation_buttons_core
     type: string
-  - name: add_a_unique_name_1655471895
-    title: Liste produits
+  - name: add_a_unique_name_1655736806
+    title: Liste des produits
     model: sch_uc1_looker
     explore: uc1_dataset_full
     type: looker_grid
-    fields: [uc1_dataset_full.code_produit_fini, uc1_dataset_full.nom_matiere, uc1_dataset_full.date_traitement_fabrication,
-      uc1_dataset_full.designation_produit_fini]
+    fields: [uc1_dataset_full.code_produit_fini, uc1_dataset_full.designation_produit_fini,
+      uc1_dataset_full.composant_sous_nomenclature_generee_ngmat_g_ngatg, uc1_dataset_full.mara_ngatg_designation,
+      uc1_dataset_full.unite_mesure, uc1_dataset_full.qte_matiere_genenee]
     sorts: [uc1_dataset_full.code_produit_fini]
     limit: 15
     show_view_names: false
