@@ -5,7 +5,7 @@ view: custom_navigation_buttons_core {
     group_label: "Dashboard Navigation"
     label: "Navigation Bar"
     type: string
-    sql: "";;
+    sql: "select 1";;
     html:
     <div style="background-color: #F6F6F7; height:500px;width:100%"></div>
       <div style="background-color: #F6F6F7; border: solid 1px #4285F4; border-radius: 5px; padding: 5px 10px; height: 60px; width:100%">
