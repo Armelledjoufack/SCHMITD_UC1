@@ -16,6 +16,8 @@ explore: libelles {}
 
 explore: bom_mara_pf {}
 
+explore: custom_navigation_buttons_core {}
+
 explore: articles {
   join: articles__atstd {
     view_label: "Articles: Atstd"
