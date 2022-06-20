@@ -7,11 +7,11 @@
   preferred_slug: Pylv7NG6P2NqduAFPNGmA3
   elements:
   - title: Numéro tarif
-    name: Numéro tarif
+    name: Numero_tarif
     model: sch_uc1_looker
     explore: uc1_dataset_full
     type: looker_grid
-    fields: [uc1_dataset_full.numero_tarif, uc1_dataset_full.quantite_commandee]
+    fields: [uc1_dataset_full.numero_tarif]
     sorts: [uc1_dataset_full.numero_tarif]
     show_view_names: false
     show_row_numbers: true
@@ -37,20 +37,15 @@
       first_last: first
       num_rows: 0
     defaults_version: 1
-    listen: {}
-    row: 0
-    col: 0
-    width: 8
-    height: 6
   - name: add_a_unique_name_1655471895
-    title: Untitled Visualization
+    title: Liste produits
     model: sch_uc1_looker
     explore: uc1_dataset_full
     type: looker_grid
     fields: [uc1_dataset_full.code_produit_fini, uc1_dataset_full.nom_matiere, uc1_dataset_full.date_traitement_fabrication,
       uc1_dataset_full.designation_produit_fini]
     sorts: [uc1_dataset_full.code_produit_fini]
-    limit: 5000
+    limit: 15
     show_view_names: false
     show_row_numbers: true
     transpose: false
