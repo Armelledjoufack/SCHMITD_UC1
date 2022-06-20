@@ -38,7 +38,7 @@
       num_rows: 0
     defaults_version: 1
   - name: add_a_unique_name_1655471896
-    title: test
+    title: Tabs
     model: sch_uc1_looker
     explore: custom_navigation_buttons_core
     type: string
