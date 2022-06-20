@@ -37,6 +37,11 @@
       first_last: first
       num_rows: 0
     defaults_version: 1
+  - name: add_a_unique_name_1655471896
+    title: test
+    model: sch_uc1_looker
+    explore: custom_navigation_buttons_core
+    type: string
   - name: add_a_unique_name_1655471895
     title: Liste produits
     model: sch_uc1_looker
