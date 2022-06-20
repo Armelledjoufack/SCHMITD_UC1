@@ -2,6 +2,8 @@ connection: "schmidt_big_query"
 
 # include all the views
 include: "/views/**/*.view"
+# include all the views
+include: "/views/*.view"
 
 include: "/*.dashboard"
 
@@ -16,7 +18,6 @@ explore: libelles {}
 
 explore: bom_mara_pf {}
 
-explore: custom_navigation_buttons_core {}
 
 explore: articles {
   join: articles__atstd {
