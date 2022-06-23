@@ -2,8 +2,6 @@ view: uc1_dataset_full {
   sql_table_name: `nomenclatures.UC1_Dataset_Full`;;
   label: "Dataset Principal"
 
-
-
   dimension: cdop_1 {
     label: "Code Option 1"
     type: string
@@ -28,9 +26,7 @@ view: uc1_dataset_full {
     sql: ${TABLE}.CDOP_4 ;;
   }
 
-
-
-  dimension: cdva_1 {
+    dimension: cdva_1 {
     label: "Code Variable 1"
     type: string
     sql: ${TABLE}.CDVA_1 ;;
