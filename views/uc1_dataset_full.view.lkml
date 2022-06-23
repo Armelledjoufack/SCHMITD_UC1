@@ -2,108 +2,54 @@ view: uc1_dataset_full {
   sql_table_name: `nomenclatures.UC1_Dataset_Full`;;
   label: "Dataset Principal"
 
-  dimension: cdop1 {
-    type: string
-    sql: ${TABLE}.CDOP1 ;;
-    label: "Code Option 1"
-  }
 
-  dimension: cdop2 {
-    type: string
-    sql: ${TABLE}.CDOP2 ;;
-    label: "Code Option 2"
-  }
-
-  dimension: cdop3 {
-    type: string
-    sql: ${TABLE}.CDOP3 ;;
-    label: "Code Option 3"
-  }
-
-  dimension: cdop4 {
-    type: string
-    sql: ${TABLE}.CDOP4 ;;
-    label: "Code Option 4"
-  }
-
-  dimension: cdop5 {
-    type: string
-    sql: ${TABLE}.CDOP5 ;;
-    label: "Code Option 5"
-  }
-
-  dimension: cdop6 {
-    type: string
-    sql: ${TABLE}.CDOP6 ;;
-    label: "Code Option 6"
-  }
 
   dimension: cdop_1 {
+    label: "Code Option 1"
     type: string
     sql: ${TABLE}.CDOP_1 ;;
   }
 
   dimension: cdop_2 {
+    label: "Code Option 2"
     type: string
     sql: ${TABLE}.CDOP_2 ;;
   }
 
   dimension: cdop_3 {
+    label: "Code Option 3"
     type: string
     sql: ${TABLE}.CDOP_3 ;;
   }
 
   dimension: cdop_4 {
+    label: "Code Option 4"
     type: string
     sql: ${TABLE}.CDOP_4 ;;
   }
 
-  dimension: cdva1 {
-    type: string
-    sql: ${TABLE}.CDVA1 ;;
-  }
 
-  dimension: cdva2 {
-    type: string
-    sql: ${TABLE}.CDVA2 ;;
-  }
-
-  dimension: cdva3 {
-    type: string
-    sql: ${TABLE}.CDVA3 ;;
-  }
-
-  dimension: cdva4 {
-    type: string
-    sql: ${TABLE}.CDVA4 ;;
-  }
-
-  dimension: cdva5 {
-    type: string
-    sql: ${TABLE}.CDVA5 ;;
-  }
-
-  dimension: cdva6 {
-    type: string
-    sql: ${TABLE}.CDVA6 ;;
-  }
 
   dimension: cdva_1 {
+    label: "Code Variable 1"
     type: string
     sql: ${TABLE}.CDVA_1 ;;
   }
 
   dimension: cdva_2 {
+    label: "Code Variable 2"
     type: string
     sql: ${TABLE}.CDVA_2 ;;
   }
 
   dimension: cdva_3 {
+    label: "Code Variable 3"
     type: string
     sql: ${TABLE}.CDVA_3 ;;
   }
 
   dimension: cdva_4 {
+    label: "Code Variable 4"
     type: string
     sql: ${TABLE}.CDVA_4 ;;
   }
